@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(216, 216, 216);
+
+}
+
+header h1{
+    text-align: center;
+}
+
+.boxes{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    border: 2px solid black;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.input-box{
+    display: flex;
+    margin: 5rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input-content{
+    height: 45px;
+    padding-left: 5px;
+}
+
+.greet-btn{
+    width: 55px;
+}
+
+.greet-btn:hover{
+    cursor: pointer;
+}
