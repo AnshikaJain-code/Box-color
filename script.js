@@ -26,6 +26,13 @@ const input = document.querySelector('.input-content');
 const output = document.querySelector('.greet-btn');
 const h1 = document.getElementsByTagName('h1')[0];
 output.addEventListener('click', () => {
-    h1.innerText = `Hello, ${input.value}`;
+    const name = input.value.trim();
+
+    if (name) {
+      greetText.innerText = `Hello, ${name}`;
+    } else {
+      greetText.innerText = "Hello";
+    }
 })
+
 
