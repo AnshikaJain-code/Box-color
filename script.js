@@ -29,10 +29,11 @@ output.addEventListener('click', () => {
     const name = input.value.trim();
 
     if (name) {
-      greetText.innerText = `Hello, ${name}`;
+      h1.innerText = `Hello, ${name}`;
     } else {
-      greetText.innerText = "Hello";
+      h1.innerText = "Hello";
     }
 })
+
 
 
